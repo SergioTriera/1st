@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <title>проверка прочности</title>
+  </head>
+  <body>
+     <header>
+       <h4>
+         Пожалуйста, позвоните нам!
+       </h4>
+       <p>Ваше имя: <input name="login"></p>
+       <p>Телефон в формате 2xxx-xxx:  <input type="tel" name="tel"
+       pattern="2[0-9]{3}-[0-9]{3}"></p>
+       <p><input type="submit" value="Отправить"></p>
+     </header>
+     <section>
+       <h1>
+         <b>НАша компания занимается проверкой качества бетона и раствора</b>
+       </h1>
+       <p>
+         Профессионально оформим всё как надо:</p>
+         <nav><ul>
+           <li><a href="#">Бетон</a></li>
+           <li><a href="#">Раствор</a></li>
+           <li><a href="#">ЖБИ</a></li>
+         </ul></nav>
+         <p>
+           Наши работы:</p>
+           <p>
+           <a href="/index.php"><img src="//www.pergam.ru/img/img/super/control-beton-2.jpg" alt="Фото1"width="100" height="100"></a>
+           <a href="/index.php"><img src="//www.pergam.ru/img/img/super/molotok-shmidta.jpg" alt="Фото2"width="100" height="100"></a>
+           </p>
+      </section>
+      <footer>
+       <h3>
+         НАш адрес:
+       </h3>
+       <div>
+         Россия, 420029, г.Казан, ул. Журналистов, 24<br>
+         тел: (843)291-08-35 <br>
+       </div>
+       <a href='#'>email: tatcsm@tatcsm.ru</a>
+     </footer>
+  </body>
